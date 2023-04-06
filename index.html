@@ -9,36 +9,34 @@
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
     <section id="landing">
         <nav>
             <div class="nav__container">
-                <img class="logo" src="./photos/Books.svg" alt="">
+                <img class="logo" src="photos/Library.svg">
                 <ul class="nav__links">
-                    <li><a class="nav__link" href="#">Home</a></li>
-                    <li><a class="nav__link" href="#">Contact</a></li>
-                    <li><a class="nav__link nav__link--primary" href="./books.html">Books</a></li>
+                    <li><a href="#" class="nav__link">Home</a></li>
+                    <li><a href="#" class="nav__link">Contact</a></li>
+                    <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
                 </ul>
                 <button class="btn__menu" onclick="openMenu()">
                     <i class="fas fa-bars"></i>
                 </button>
-            </div>
-            <div class="menu__backdrop">
-                <div class="menu__bar">
-                    <div class="menu__logo">
-                        <img class="menu__logo--img" src="./photos/Books.svg" alt="">
-                    </div>
-                    <div class="menu__btn">
-                        <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-                            <i class="fas fa-times"></i>
-                        </button>
-                    </div>
+                <div class="menu__backdrop">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="menu__links">
+                        <li class="menu__list">
+                            <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#features" class="menu__link" onclick="closeMenu()">Books</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#" class="menu__link no-cursor" onclick="closeMenu()">Contacts</a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="menu__links">
-                    <li class="menu__list"><a class="menu__link" href="#">Home</a></li>
-                    <li class="menu__list"><a class="menu__link" href="#">Contact</a></li>
-                    <li class="menu__list"><a href="./books.html" class="menu__link">Books</a></li>
-                </ul>
             </div>
         </nav>
         <header>
@@ -182,7 +180,7 @@
             </div>
         </section>
 
-        <section id="latest">
+        <section id="recent">
             <div class="container">
                 <div class="row row-book">
                     <h2 class="section__title">
@@ -203,7 +201,7 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="book__price">
-                                AED 25.00
+                                <span class="book__price--normal">AED 36.70</span> AED 21.00
                             </div>
                         </div>
                         <div class="book">
@@ -211,7 +209,7 @@
                                 <img class="book__img" src="photos/book-2.jpeg" alt="">
                             </figure>
                             <div class="book__title">
-                                Be Obssessed Or Be Average
+                                Be Obsessed Or Be Average
                             </div>
                             <div class="book__ratings">
                                 <i class="fas fa-star"></i>
@@ -220,7 +218,7 @@
                                 <i class="fas fa-star-half"></i>
                             </div>
                             <div class="book__price">
-                                AED 38.95
+                                <span class="book__price--normal">AED 36.70</span> AED 21.00
                             </div>
                         </div>
                         <div class="book">
@@ -238,7 +236,7 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="book__price">
-                                AED 40.25
+                                <span class="book__price--normal">AED 36.70</span> AED 21.00
                             </div>
                         </div>
                         <div class="book">
@@ -256,7 +254,7 @@
                                 <i class="fas fa-star-half"></i>
                             </div>
                             <div class="book__price">
-                               AED 20.00
+                                <span class="book__price--normal">AED 36.70</span> AED 21.00
                             </div>
                         </div>
                         <div class="book">
@@ -273,7 +271,7 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="book__price">
-                                AED 45.70
+                                <span class="book__price--normal">AED 36.70</span> AED 21.00
                             </div>
                         </div>
                         <div class="book">
@@ -291,7 +289,7 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <div class="book__price">
-                                AED 23.95
+                                <span class="book__price--normal">AED 36.70</span> AED 21.00
                             </div>
                         </div>
                         <div class="book">
@@ -308,7 +306,7 @@
                                 <i class="fas fa-star-half"></i>
                             </div>
                             <div class="book__price">
-                                AED 20.00
+                                <span class="book__price--normal">AED 36.70</span> AED 21.00
                             </div>
                         </div>
                         <div class="book">
@@ -326,7 +324,7 @@
                                 <i class="fas fa-star-half"></i>
                             </div>
                             <div class="book__price">
-                                AED 22.75
+                                <span class="book__price--normal">AED 36.70</span> AED 21.00
                             </div>
                         </div>
                     </div>
@@ -336,7 +334,7 @@
 
         <section id="explore">
             <div class="container">
-                <div class="row row-column">
+                <div class="row row__column">
                     <h2 class="section__title">
                         Explore more <span class="purple">Books</span>
                     </h2>
@@ -348,19 +346,19 @@
 
     <footer>
         <div class="container">
-            <div class="row row-column">
-                <a href="">
+            <div class="row row__column">
+                <a href="#">
                     <figure class="footer__logo">
-                        <img src="./photos/Books.svg" class="footer__logo--img" alt="">
+                        <img src="./photos/Library.svg" class="footer__logo--img" alt="">
                     </figure>
                 </a>
                 <div class="footer__list">
-                    <a href="" class="footer__link">Home</a>
-                    <a href="" class="footer__link">About</a>
-                    <a href="" class="footer__link">Books</a>
-                    <a href="" class="footer__link">Contact</a>
+                    <a href="#" class="footer__link">Home</a>
+                    <a href="#" class="footer__link no-cursor">About</a>
+                    <a href="#" class="footer__link">Books</a>
+                    <a href="#" class="footer__link no-cursor">Contact</a>
                 </div>
-                <div class="footer__copyright">Copyright &copy; 2022 Library</div>
+                <div class="footer__copyright">Copyright &copy; 2023 Library</div>
             </div>
         </div>
     </footer>
