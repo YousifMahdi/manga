@@ -11,7 +11,7 @@ function Landing() {
             <h2>
               Find your dream book with <span className="purple">Library</span>{" "}
             </h2>
-            <Link to="#features">
+            <Link to="#featured">
               <button className="btn">Browse books</button>
             </Link>
           </div>
