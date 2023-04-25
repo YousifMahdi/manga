@@ -7,12 +7,12 @@ function Landing() {
       <header>
         <div className="header__container">
           <div className="header__description">
-            <h1>Dubai's most awarded online library!</h1>
+            <h1>Dubai's most awarded online manga library!</h1>
             <h2>
-              Find your dream book with <span className="purple">Library</span>{" "}
+              Find your dream manga with <span className="purple">Library</span>{" "}
             </h2>
             <Link to="#featured">
-              <button className="btn">Browse books</button>
+              <button className="btn">Browse manga</button>
             </Link>
           </div>
           <figure className="header__img--wrapper">
