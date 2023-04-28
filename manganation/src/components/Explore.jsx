@@ -5,10 +5,10 @@ function Explore() {
       <div className="container">
         <div className="row row__column">
           <h2 className="section__title">
-            Explore more <span className="purple">Books</span>
+            Explore more <span className="purple">Manga</span>
           </h2>
           <Link to="/books">
-            <button className="btn">Explore Books</button>
+            <button className="btn">Explore Manga</button>
           </Link>
         </div>
       </div>

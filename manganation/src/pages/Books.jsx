@@ -42,7 +42,7 @@ function Books({ books: initialBooks }) {
             <div className="row">
               <div className="books__header">
                 <h2 className="section__title books__header--title">
-                  All Books
+                  All Manga
                 </h2>
                 <select
                   id="filter"

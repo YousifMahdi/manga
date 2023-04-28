@@ -12,17 +12,17 @@ function Highlights() {
           <div className="highlight__wrapper">
             <Highlight
               title="Easy and quick"
-              description="Get access to the book you purchased online instantly."
+              description="Get access to the manga you purchased online instantly."
               icon={<FontAwesomeIcon icon="bolt" />}
             />
             <Highlight
               title="10,000+ Books"
-              description="Library has books in all your favorite categories."
+              description="Library has manga in all your favorite categories."
               icon={<FontAwesomeIcon icon="book-open" />}
             />
             <Highlight
               title="Easy and quick"
-              description="Get access to the book you purchased online instantly."
+              description="Get access to the manga you purchased online instantly."
               icon={<FontAwesomeIcon icon="tags" />}
             />
           </div>

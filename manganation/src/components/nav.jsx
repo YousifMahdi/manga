@@ -21,7 +21,7 @@ function Nav({ numberCartItems }) {
           </li>
           <li className="nav__list">
             <Link to="/books" className="nav__link">
-              Books
+              Manga
             </Link>
           </li>
           <button className="btn__menu" onClick={menuToggle}>
@@ -49,7 +49,7 @@ function Nav({ numberCartItems }) {
             </li>
             <li className="menu__list">
               <Link to="/books" className="menu__link" onClick={menuToggle}>
-                Books
+                Manga
               </Link>
             </li>
             <li className="menu__list">

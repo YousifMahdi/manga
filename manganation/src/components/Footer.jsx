@@ -15,11 +15,11 @@ function Footer() {
                 <div className="footer__list">
                     <Link to="/" className="footer__link">Home</Link>
                     <span className="footer__link no-cursor">About</span>
-                    <Link to="/books" className="footer__link">Books</Link>
+                    <Link to="/books" className="footer__link">Manga</Link>
                     <Link to="/cart" className="footer__link">Cart</Link>
                 </div>
                 <div className="footer__copyright">
-                    Copyright &copy; 2023 Library
+                    Copyright &copy; 2023 Manga Library
                 </div>
             </div>
         </div>
