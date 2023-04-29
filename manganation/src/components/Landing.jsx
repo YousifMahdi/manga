@@ -11,9 +11,9 @@ function Landing() {
             <h2>
               Find your dream manga with <span className="purple">Manga Library</span>{" "}
             </h2>
-            <Link to="#featured">
+            <a href ="#features">
               <button className="btn">Browse Manga</button>
-            </Link>
+            </a>
           </div>
           <figure className="header__img--wrapper">
             <img src={UndrawBooks} />
