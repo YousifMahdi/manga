@@ -7,9 +7,9 @@ function Explore() {
           <h2 className="section__title">
             Explore more <span className="purple">Manga</span>
           </h2>
-          <a href = "/Books">
+          <Link to = "/Books">
             <button className="btn">Explore Manga</button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

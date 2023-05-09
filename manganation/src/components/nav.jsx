@@ -10,9 +10,9 @@ function Nav({ numberCartItems }) {
   return (
     <nav>
       <div className="nav__container">
-        <a href="/">
+        <Link to="/">
           <img src={LibraryLogo} alt="" className="logo" />
-        </a>
+        </Link>
         <ul className="nav__links">
           <li className="nav__list">
             <Link to="/" className="nav__link">

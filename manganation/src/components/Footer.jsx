@@ -13,9 +13,9 @@ function Footer() {
                     </figure>
                 </Link>
                 <div className="footer__list">
-                    <a href="/" className="footer__link">Home</a>
+                    <Link to="/" className="footer__link">Home</Link>
                     <span className="footer__link no-cursor">About</span>
-                    <a href="/Books" className="footer__link">Manga</a>
+                    <Link to="/Books" className="footer__link">Manga</Link>
                     <Link to="/cart" className="footer__link">Cart</Link>
                 </div>
                 <div className="footer__copyright">

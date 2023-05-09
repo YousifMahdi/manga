@@ -27,15 +27,15 @@ function Book({ book }) {
     <div className="book">
       {img ? (
         <>
-          <a href={`/books/${book.id}`}>
+          <Link to={`/books/${book.id}`}>
             <figure className="book__img--wrapper">
               <img src={img.src} className="book__img" />
             </figure>
-          </a>
+          </Link>
           <div className="book__title">
-            <a href={`/books/${book.id}`} className="book__title--link">
+            <Link to={`/books/${book.id}`} className="book__title--link">
               {book.title}
-            </a>
+            </Link>
           </div>
           <Rating rating={book.rating} />
           <Price
